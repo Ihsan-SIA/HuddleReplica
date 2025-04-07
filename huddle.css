@@ -52,7 +52,7 @@ body{
         button:hover{
             background-color: hotpink;
             color: white;
-            transition: 200ms;
+            transition: 250ms;
         }
 }    
 .twoimg{
