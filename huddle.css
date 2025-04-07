@@ -1,0 +1,63 @@
+body{
+    font-family: poppins;
+}
+.container{
+    background-color: #674bb1;
+    min-height: 100vh;
+    padding: 0 80px;
+    background-image: url(./HudAssets/images/bg-desktop.svg);
+}
+.topcont{
+    display: flex;
+    padding-top: 30px;
+    margin: 0px auto;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+    a:hover{
+        color: hotpink;
+        font-size: 1.1em;
+        transition: 150ms;
+    }
+}
+.icontop{
+    margin: 0px 15px;
+}
+.midcont{
+    display: flex;
+    margin: 30px 10px;
+    justify-content: space-between;
+    .words{
+        max-width: 900;
+        margin-right: 90px;
+        line-height: 1;
+        color: white;
+    }
+        h1{
+            font-size: 3em;
+            line-height: 50px;
+        }
+        button{
+            padding: 10px 20px;
+            border: none;
+            border-radius: 100px;
+            font-family: poppins;
+        }
+        button:hover{
+            background-color: hotpink;
+            color: white;
+            transition: 200ms;
+        }
+}    
+.twoimg{
+    justify-content: space-between;
+    img{
+        width: 800px;
+    }
+}
